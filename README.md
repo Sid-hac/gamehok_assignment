@@ -121,23 +121,6 @@ NEXT_PUBLIC_API_URL=http://localhost:8080
 
 ---
 
-## 🌎 Deployment
-### **Backend Deployment (Render / Railway / Fly.io)**
-```txt
-1. Push your code to GitHub
-2. Deploy using Render, Railway, or Fly.io (see instructions in the project)
-3. Update the frontend `.env.local` file with your deployed API URL
-```
-
-### **Frontend Deployment (Netlify)**
-```txt
-1. Connect your repository to Netlify
-2. Set the environment variable NEXT_PUBLIC_API_URL in Netlify settings
-3. Deploy the frontend 🚀
-```
-
----
-
 ## 🔗 API Endpoints
 
 ```yaml
