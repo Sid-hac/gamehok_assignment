@@ -22,6 +22,154 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 
+# 🏆 Tournament Dashboard
+
+A **Full Stack Tournament Dashboard** built with **Next.js (TypeScript), Spring Boot (Java), and PostgreSQL**. This project allows users to view, manage, and interact with tournament data.
+
+## 🚀 Tech Stack
+
+### **Frontend:**
+```txt
+- Next.js (TypeScript)
+- Tailwind CSS
+- TanStack Query
+- Clerk Authentication
+- Vercel AI SDK (for AI-powered features)
+```
+
+### **Backend:**
+```txt
+- Spring Boot (Java)
+- Spring Data JPA
+- PostgreSQL
+- Docker (for containerization)
+```
+
+### **Hosting:**
+```txt
+- Frontend: Deployed on Netlify
+- Backend: Deployed on Render/Railway/Fly.io
+```
+
+---
+
+## 📌 Features
+```txt
+✅ List all tournaments
+✅ View tournament details
+✅ Secure API with CORS enabled
+✅ Database integration with PostgreSQL
+✅ Containerized deployment with Docker
+```
+
+---
+
+## 🛠️ Setup Instructions
+
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/your-username/tournament-dashboard.git
+cd tournament-dashboard
+```
+
+### **2️⃣ Backend Setup (Spring Boot)**
+#### **Prerequisites:**
+```txt
+- Java 17+
+- PostgreSQL installed
+- Maven installed
+```
+
+#### **Run Backend Locally:**
+```sh
+cd backend
+mvn spring-boot:run
+```
+- The backend will start at: `http://localhost:8080`
+- Ensure PostgreSQL is running and configured in `application.properties`
+
+#### **Environment Variables (Backend)**
+Create a `.env` file in the `backend` folder and set the following:
+```ini
+DB_URL=jdbc:postgresql://localhost:5432/tournament_db
+DB_USERNAME=your_db_username
+DB_PASSWORD=your_db_password
+```
+
+---
+
+### **3️⃣ Frontend Setup (Next.js)**
+#### **Prerequisites:**
+```txt
+- Node.js 18+
+- npm or yarn
+```
+
+#### **Run Frontend Locally:**
+```sh
+cd frontend
+npm install
+npm run dev
+```
+- The frontend will start at: `http://localhost:3000`
+
+#### **Environment Variables (Frontend)**
+Create a `.env.local` file in the `frontend` folder:
+```ini
+NEXT_PUBLIC_API_URL=http://localhost:8080
+```
+
+---
+
+## 🌎 Deployment
+### **Backend Deployment (Render / Railway / Fly.io)**
+```txt
+1. Push your code to GitHub
+2. Deploy using Render, Railway, or Fly.io (see instructions in the project)
+3. Update the frontend `.env.local` file with your deployed API URL
+```
+
+### **Frontend Deployment (Netlify)**
+```txt
+1. Connect your repository to Netlify
+2. Set the environment variable NEXT_PUBLIC_API_URL in Netlify settings
+3. Deploy the frontend 🚀
+```
+
+---
+
+## 🔗 API Endpoints
+
+```yaml
+- GET  /tournaments       # Get all tournaments
+- GET  /tournaments/{id}  # Get tournament by ID
+```
+
+---
+
+## 🤝 Contributing
+```txt
+Feel free to fork this repository and submit a pull request with improvements!
+```
+
+---
+
+## 📄 License
+```txt
+This project is open-source and available under the MIT License.
+```
+
+---
+
+## 🎯 Contact
+```yaml
+Author: Your Name
+GitHub: @your-username (https://github.com/your-username)
+Email: your.email@example.com
+```
+
+
+
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
