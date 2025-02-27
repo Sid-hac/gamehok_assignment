@@ -104,11 +104,11 @@ npm run dev
 
 📸 Screenshots
 
-Home Page
-([Home Page](https://github.com/Sid-hac/gamehok_assignment/blob/master/Screenshot%202025-02-27%20160012.png))
+#Home Page
+![Home Page](https://github.com/Sid-hac/gamehok_assignment/blob/master/Screenshot%202025-02-27%20160012.png)
 
-Tournament Details
-([Tournament Details](https://github.com/Sid-hac/gamehok_assignment/blob/master/Screenshot%202025-02-27%20160051.png))
+#Tournament Details
+![Tournament Details](https://github.com/Sid-hac/gamehok_assignment/blob/master/Screenshot%202025-02-27%20160051.png)
 
 ## 🔗 API Endpoints
 
