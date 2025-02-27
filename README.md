@@ -108,7 +108,7 @@ Home Page
 ![Home Page](Screenshot 2025-02-27 160012.png)
 
 Tournament Details
-![Tournament Details]()
+![Tournament Details](Screenshot 2025-02-27 160051.png)
 
 ## 🔗 API Endpoints
 
