@@ -102,6 +102,18 @@ npm run dev
 
 ---
 
+📸 Screenshots
+
+Home Page
+
+
+
+Tournament List
+
+
+
+Tournament Details
+
 ## 🔗 API Endpoints
 
 ```yaml
