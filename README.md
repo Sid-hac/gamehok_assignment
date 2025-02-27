@@ -32,9 +32,6 @@ A **Full Stack Tournament Dashboard** built with **Next.js (TypeScript), Spring 
 ```txt
 - Next.js (TypeScript)
 - Tailwind CSS
-- TanStack Query
-- Clerk Authentication
-- Vercel AI SDK (for AI-powered features)
 ```
 
 ### **Backend:**
@@ -42,16 +39,7 @@ A **Full Stack Tournament Dashboard** built with **Next.js (TypeScript), Spring 
 - Spring Boot (Java)
 - Spring Data JPA
 - PostgreSQL
-- Docker (for containerization)
 ```
-
-### **Hosting:**
-```txt
-- Frontend: Deployed on Netlify
-- Backend: Deployed on Render/Railway/Fly.io
-```
-
----
 
 ## 📌 Features
 ```txt
@@ -59,7 +47,6 @@ A **Full Stack Tournament Dashboard** built with **Next.js (TypeScript), Spring 
 ✅ View tournament details
 ✅ Secure API with CORS enabled
 ✅ Database integration with PostgreSQL
-✅ Containerized deployment with Docker
 ```
 
 ---
