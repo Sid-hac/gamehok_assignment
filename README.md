@@ -105,7 +105,7 @@ npm run dev
 📸 Screenshots
 
 Home Page
-![Home Page]()
+![Home Page](Screenshot 2025-02-27 160012.png)
 
 Tournament Details
 ![Tournament Details]()
