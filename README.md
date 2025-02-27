@@ -55,8 +55,8 @@ A **Full Stack Tournament Dashboard** built with **Next.js (TypeScript), Spring 
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-username/tournament-dashboard.git
-cd tournament-dashboard
+git clone [https://github.com/your-username/tournament-dashboard.git](https://github.com/Sid-hac/gamehok_assignment.git)
+cd gamehok
 ```
 
 ### **2️⃣ Backend Setup (Spring Boot)**
@@ -69,7 +69,7 @@ cd tournament-dashboard
 
 #### **Run Backend Locally:**
 ```sh
-cd backend
+cd gamehok
 mvn spring-boot:run
 ```
 - The backend will start at: `http://localhost:8080`
@@ -79,8 +79,8 @@ mvn spring-boot:run
 Create a `.env` file in the `backend` folder and set the following:
 ```ini
 DB_URL=jdbc:postgresql://localhost:5432/tournament_db
-DB_USERNAME=your_db_username
-DB_PASSWORD=your_db_password
+DB_USERNAME=postgres
+DB_PASSWORD=*******
 ```
 
 ---
@@ -94,17 +94,11 @@ DB_PASSWORD=your_db_password
 
 #### **Run Frontend Locally:**
 ```sh
-cd frontend
+cd gamehok
 npm install
 npm run dev
 ```
 - The frontend will start at: `http://localhost:3000`
-
-#### **Environment Variables (Frontend)**
-Create a `.env.local` file in the `frontend` folder:
-```ini
-NEXT_PUBLIC_API_URL=http://localhost:8080
-```
 
 ---
 
@@ -133,9 +127,9 @@ This project is open-source and available under the MIT License.
 
 ## 🎯 Contact
 ```yaml
-Author: Your Name
-GitHub: @your-username (https://github.com/your-username)
-Email: your.email@example.com
+Author: Siddhant Kamble
+GitHub: Sid-hac (https://github.com/Sid-hac)
+Email: sidengineer.014@gmail.com
 ```
 
 
