@@ -105,14 +105,10 @@ npm run dev
 📸 Screenshots
 
 Home Page
-
-
-
-Tournament List
-
-
+![Home Page]()
 
 Tournament Details
+![Tournament Details]()
 
 ## 🔗 API Endpoints
 
